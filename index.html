@@ -1,34 +1,70 @@
-$
-Privacy Policy
-Statsy · last updated 16 October 2026
-The short version: Statsy shows your own app statistics by talking directly to Google and Apple from your iPhone. Your sign-in tokens and API keys stay in your iPhone's Keychain. There is no Statsy account and no Statsy server. Statsy uses Firebase Analytics to understand how the app itself is used.
-What Statsy reads, and from where
-When you connect your accounts, Statsy requests your own data directly from:
-	•	Google Analytics for Firebase: active and total users for your apps (read-only access).
-	•	AdMob: estimated earnings per app (read-only access).
-	•	App Store Connect: Sales and Trends reports, using the API key you provide.
-These figures are shown on your device and cached there so the app opens quickly. They are never sent to me or to anyone else.
-Your credentials
-Your Google sign-in tokens, OAuth client ID and App Store Connect key (issuer ID, key ID, vendor number and private key) are stored in the iPhone Keychain, available only on this device and never synced to iCloud. Signing out deletes them together with the cached dashboard.
-Other requests Statsy makes
-	•	Apple's iTunes lookup, to fetch your apps' public names and icons by bundle ID.
-	•	frankfurter.app, to fetch public currency exchange rates. No personal information is sent.
-Analytics about Statsy itself
-Statsy uses Google's Firebase Analytics to collect anonymous usage data about the app, such as screens opened and app version, together with an app instance identifier. This is not linked to your identity, is not used for advertising, and does not include any of your statistics, earnings or keys. Google's handling of this data is covered by the Google Privacy Policy.
-Purchases
-Statsy Pro is bought through the App Store. Apple processes the payment; Statsy only learns whether Pro is unlocked.
-Notifications
-If you allow notifications, Statsy checks your accounts in the background and posts local notifications on your device. Nothing is sent through a Statsy server.
-What Statsy does not do
-	•	No account, email address or password for Statsy.
-	•	No advertising, no advertising identifiers, no tracking across apps or websites.
-	•	Nothing is sold or shared.
-Deleting your data
-Sign out in Statsy to remove your credentials and cached data, or delete the app. You can also revoke Statsy's Google access at myaccount.google.com/permissions and revoke your API key in App Store Connect.
-Children
-Statsy is a tool for app developers and is not directed at children under 13.
-Changes
-If this policy changes, the updated version will appear on this page with a new date.
-Contact
-Questions about privacy: matthewproductions182@gmail.com
-© 2026 Matthew Productions
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Statsy Privacy Policy</title>
+<meta name="description" content="How Statsy handles your data and API keys.">
+<style>
+:root { --bg: #2B2F35; --card: #33383F; --ink: #F2F3F5; --muted: #A7ADB6; --lime: #C8F56A; --line: #3D434B; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Avenir Next", -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", sans-serif; line-height: 1.6; -webkit-font-smoothing: antialiased; }
+.wrap { max-width: 680px; margin: 0 auto; padding: 0 20px 64px; }
+header { padding: 56px 0 24px; }
+.logo { width: 56px; height: 56px; border-radius: 14px; background: linear-gradient(135deg, #C8F55A, #8FD12A); color: #12160C; font-weight: 800; font-size: 30px; display: grid; place-items: center; box-shadow: 0 0 28px rgba(184, 242, 74, .35); margin-bottom: 20px; }
+h1 { font-size: clamp(2rem, 6vw, 2.6rem); margin: 0 0 6px; letter-spacing: -0.02em; line-height: 1.15; }
+.tagline { color: var(--muted); margin: 0; }
+.card { background: var(--card); border-radius: 18px; padding: 18px 20px; margin: 24px 0 32px; box-shadow: 8px 8px 18px rgba(0,0,0,.35), -6px -6px 16px rgba(255,255,255,.04); }
+a { color: var(--lime); font-weight: 600; }
+h2 { font-size: 1.15rem; margin: 30px 0 8px; }
+p, li { color: #DADDE2; }
+ul { padding-left: 20px; }
+.qa { border-top: 1px solid var(--line); padding-top: 4px; }
+footer { color: var(--muted); font-size: .9rem; margin-top: 48px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header><div class="logo">$</div><h1>Privacy Policy</h1><p class="tagline">Statsy · last updated 16 October 2026</p></header>
+
+<div class="card"><p><strong>The short version:</strong> Statsy shows your own app statistics by talking directly to Google and Apple from your iPhone. Your sign-in tokens and API keys stay in your iPhone's Keychain. There is no Statsy account and no Statsy server. Statsy uses Firebase Analytics to understand how the app itself is used.</p></div>
+<h2>What Statsy reads, and from where</h2>
+<p>When you connect your accounts, Statsy requests your own data directly from:</p>
+<ul>
+<li><strong>Google Analytics for Firebase</strong>: active and total users for your apps (read-only access).</li>
+<li><strong>AdMob</strong>: estimated earnings per app (read-only access).</li>
+<li><strong>App Store Connect</strong>: Sales and Trends reports, using the API key you provide.</li>
+</ul>
+<p>These figures are shown on your device and cached there so the app opens quickly. They are never sent to me or to anyone else.</p>
+<h2>Your credentials</h2>
+<p>Your Google sign-in tokens, OAuth client ID and App Store Connect key (issuer ID, key ID, vendor number and private key) are stored in the iPhone Keychain, available only on this device and never synced to iCloud. Signing out deletes them together with the cached dashboard.</p>
+<h2>Other requests Statsy makes</h2>
+<ul>
+<li><strong>Apple's iTunes lookup</strong>, to fetch your apps' public names and icons by bundle ID.</li>
+<li><strong>frankfurter.app</strong>, to fetch public currency exchange rates. No personal information is sent.</li>
+</ul>
+<h2>Analytics about Statsy itself</h2>
+<p>Statsy uses Google's Firebase Analytics to collect anonymous usage data about the app, such as screens opened and app version, together with an app instance identifier. This is not linked to your identity, is not used for advertising, and does not include any of your statistics, earnings or keys. Google's handling of this data is covered by the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+<h2>Purchases</h2>
+<p>Statsy Pro is bought through the App Store. Apple processes the payment; Statsy only learns whether Pro is unlocked.</p>
+<h2>Notifications</h2>
+<p>If you allow notifications, Statsy checks your accounts in the background and posts local notifications on your device. Nothing is sent through a Statsy server.</p>
+<h2>What Statsy does not do</h2>
+<ul>
+<li>No account, email address or password for Statsy.</li>
+<li>No advertising, no advertising identifiers, no tracking across apps or websites.</li>
+<li>Nothing is sold or shared.</li>
+</ul>
+<h2>Deleting your data</h2>
+<p>Sign out in Statsy to remove your credentials and cached data, or delete the app. You can also revoke Statsy's Google access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> and revoke your API key in App Store Connect.</p>
+<h2>Children</h2>
+<p>Statsy is a tool for app developers and is not directed at children under 13.</p>
+<h2>Changes</h2>
+<p>If this policy changes, the updated version will appear on this page with a new date.</p>
+<h2>Contact</h2>
+<p>Questions about privacy: <a href="mailto:matthewproductions182@gmail.com">matthewproductions182@gmail.com</a></p>
+
+<footer>© 2026 Matthew Productions</footer>
+</div>
+</body>
+</html>
